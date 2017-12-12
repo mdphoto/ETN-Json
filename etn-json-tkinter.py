@@ -15,31 +15,14 @@ def pull_data():
 #     time.sleep(10)
 #     pull_data()
 etn = pull_data()
+etn =  StringVar()
 #     if etn < 68:
 #         print (etn)
 
 fenetre = Tk()
-fenetre.after(10000,pull_data)
-etn = Label(fenetre, text=etn)
-etn.pack()
-fenetre.mainloop()
 
-# a = 1
-# while a == 1:
-#     """Import Electroneum json on nanopool"""
-# pull_data()
-#     if etn < 100:
-#         print ("Nombre d'ETN :", etn)
-#         time.sleep(10)
-#         continue
-#     else:
-#
-#         print ("Nanopool ETN transfer to walett was done")
-#
-# for etn
-# fenetre = Tk()
-# etn = Label(fenetre, text=etn)
-# etn.pack()
-# euro = Label(fenetre, text=etn_to_euro)
-# euro.pack()
-# fenetre.mainloop()
+etn = Label(fenetre, textvariable=etn)
+etn.pack()
+fenetre.after(10000, pull_data)
+
+fenetre.mainloop()
