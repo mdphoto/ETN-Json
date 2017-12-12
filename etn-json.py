@@ -11,11 +11,11 @@ def pull_data():
 etn = pull_data()
 while 1 == 1:
     if etn < 100:
-        # """Check if the solde is sup 100 and display your ETN"""
+        # """Check if the total is sup 100 and display your ETN"""
         etn_to_euro = float(etn) * 0.088418
         print ("Nombre d'ETN :", etn)
         print ("ETN en euro : ", etn_to_euro)
-        time.sleep(10)
+        time.sleep(60)
     else:
-        # """Alerte if the solde is up to 100"""
+        # """Alert if the total is up to 100"""
         print ("Nanopool ETN transfer to walett was done")
