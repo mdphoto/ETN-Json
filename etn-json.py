@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 import requests, time
-from tkinter import *
-
 
 a = 1
 while a == 1:
