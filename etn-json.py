@@ -16,4 +16,4 @@ while a == 1:
         continue
     else:
         """Alerte if the solde is up to 100"""
-        print ("tu es riche")
+        print ("Nanopool ETN transfer to walett was done")
