@@ -2,7 +2,7 @@
 import requests, time
 a = 1
 while a == 1:
-    """import Electroneum json on nanopool"""
+    """Import Electroneum json on nanopool"""
     url = requests.get('https://api.nanopool.org/v1/etn/balance/etnjyz4xSSYYsTb9e4NGut8djRgJABCMxNi1AnMKNPepQu2nQPAJcZU5ifUPHoN1yEX5ZwHHYRpLk8B9V5YzCKkRA5Cvxk8YU6')
     data_json = url.json()
     etn = data_json['data']
