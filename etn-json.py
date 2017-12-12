@@ -8,7 +8,7 @@ while a == 1:
     etn = data_json['data']
 
     if etn < 100:
-        """Check if the solde is sup 100"""
+        """Check if the solde is sup 100 and display your ETN"""
         etn_to_euro = float(etn) * 0.088418
         print ("Nombre d'ETN :", etn)
         print ("ETN en euro : ", etn_to_euro)
