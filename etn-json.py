@@ -14,21 +14,9 @@ while a == 1:
         """Check if the solde is sup 100 and display your ETN"""
         etn_to_euro = float(etn) * 0.088418
         print ("Nombre d'ETN :", etn)
-        # print ("ETN en euro : ", etn_to_euro)
+        print ("ETN en euro : ", etn_to_euro)
         time.sleep(10)
         continue
     else:
         """Alerte if the solde is up to 100"""
-        fenetre = Tk()
-        label = Label(fenetre, text="Nanopool ETN transfer to walett was done")
-        label.pack()
-
         print ("Nanopool ETN transfer to walett was done")
-
-
-fenetre = Tk()
-etn = Label(fenetre, text=etn)
-etn.pack()
-euro = Label(fenetre, text=etn_to_euro)
-euro.pack()
-fenetre.mainloop()
